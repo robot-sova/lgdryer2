@@ -37,7 +37,7 @@ body{background-color:#000000;
   -webkit-text-stroke-color: #fff; 
   font-family:'Ubuntu', sans-serif; text-align:center; font-weight: 900; 
   padding:0; margin:0; 
-  font-size: 1.7em; 
+  font-size: 1.5em; line-height:1.4em; 
  background-color: rgba(10, 10, 10, 0.7);
 }
 @media (min-width: 768px)
@@ -50,7 +50,7 @@ body{background-color:#000000;
 h1,h2,h3{
   padding:0 0 0 0;
 }
-h1{color:#ffffff; font-size:1.6em; line-height:1.6em;}
+h1{color:#ffffff; font-size:1.5em; line-height:1.7em;}
 h2{font-family:'Ubuntu', sans-serif; font-size:1.5em; line-height:1.5em; color:#fff;}
 
 .w{color:#ffffff;}
@@ -120,7 +120,7 @@ background-position: center top;
 }
 /*----------------*/
 a.button-85 {
-font-size:1.3em;
+font-size:1.2em;
   font-weight:900;
   color:#ffffff;
   font-family:'Ubuntu', sans-serif;
