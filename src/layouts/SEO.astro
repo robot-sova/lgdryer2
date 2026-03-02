@@ -1,14 +1,20 @@
 ---
-const title = 'LF Dryer Repair Services | +1 (323) 990-7550';
-const description = 'A minimal Astro starter template, with CUBE CSSLG DRyer Repair Experts in Los Angeles County | Orange County | Ventura County';
-const ogImage = 'https://lgdryer.repair/img/lg-dryer-repair-services.webp';
+export interface Props {
+  description?: string;
+}
+
+const { description: pageDescription } = Astro.props;
+
+const title = 'LG Dryer Repair Services | +1 (323) 990-7550';
+const description = pageDescription || 'Expert LG dryer repair in Los Angeles, Orange County & Ventura County. Same day service, all models. Call (323) 990-7550.';
+const ogImage = 'https://lgdryer.repair/images/lg-dryer-repair-services.webp';
 ---
 
 <meta name="og:site_name" property="og:site_name" content="LG Dryer Repair" />
 <meta name="og:type" property="og:type" content="website" />
 <meta
   property="og:description"
-  content="LG DRyer Repair Experts in Los Angeles County | Orange County | Ventura County"
+  content="LG Dryer Repair Experts in Los Angeles County | Orange County | Ventura County"
 />
 <meta property="og:title" content={title} />
 <meta property="og:image" content={ogImage} />
